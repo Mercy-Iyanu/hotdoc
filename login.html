@@ -19,9 +19,9 @@
   </head>
   <body>
 
-    <div class="container">
+    <div class="container" id="login_container">
         
-      <div class="h5 ">Login</div>
+      <div class="h5" id="login_text">Login</div>
     
       <form class="row g-3">
         <div class="col-md-12">
@@ -43,22 +43,22 @@
         </div>
 
         <!-- Fix this -->
-        <div class="col-6">
-          <div class="">
+        <div class="row ">
+          <div class="col-6">
             <button type="submit" class="btn btn-outline-dark">Back</button>
           </div>
-          <div class="">
+          <div class="col-6" id="login_btn">
             <button type="submit" class="btn btn-success">Log in</button>
           </div>
         </div>
         
       </form>
 
-      <div>
-        <ul>
-          <li>Create an account</li>
-          <li>Reset password</li>
-          <li>Need help?</li>
+      <div class="row">
+        <ul id="login_opt">
+          <li> <a href="#">Create an account</a></li>
+          <li> <a href="#"> Reset password</a></li>
+          <li> <a href="#">Need help?</a></li>
         </ul>
       </div>
 

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>HotDocs</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="container" id="listings_container">
+      <div class="h3">Almost there, create a HotDoc account to book</div>
+      <form>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" placeholder="" id="email">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password</label>
+          <input type="password" class="form-control" placeholder="" id="pwd">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Re-enter password</label>
+            <input type="password" class="form-control" placeholder="" id="pwd">
+        </div>
+        <div class="form-group">
+            <label for="fn">First name</label>
+            <input type="text" class="form-control" placeholder="" id="pwd">
+        </div>
+        <div class="form-group">
+            <label for="ln">Last name</label>
+            <input type="text" class="form-control" placeholder="" id="pwd">
+        </div>
+        <div class="row">
+            <label for="dob">Date of Birth</label>
+            <div class="col">
+              <input type="text" class="form-control" id="email" placeholder="DD" name="day">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="MM" name="month">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="YYYY" name="year">
+              </div>
+          </div>
+        <div>
+            <select name="sex" class="custom-select col-12">
+                <option selected>Select your gender</option>
+                <option value=""></option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="mn">Mobile Number</label>
+            <input type="text" class="form-control" placeholder="04***************" id="no">
+        </div>
+        <div >
+            <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">How is this used?</a>
+            </li>
+        </div>
+        <div class="form-group form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" checked> Keep me signed in on this trusted device
+          </label>
+        </div>
+        <div class="form-group form-check">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox"> I agree to <a href="">Terms & Conditions</a>, and to HotDoc's use of my information in accordance with its <a href="">Privacy Policy</a>.
+            </label>
+        </div>
+        <div class="row ">
+            <div class="col-6">
+              <button type="submit" class="btn btn-outline-dark">Back</button>
+            </div>
+            <div class="col-6" id="login_btn">
+              <button type="submit" class="btn btn-success">Submit</button>
+            </div>
+        </div>
+        <div >
+            <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Need help?</a>
+            </li>
+        </div>
+      </form>
+
+    </div>
+  
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="" async defer></script>
+  </body>
+</html>
