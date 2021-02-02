@@ -1,0 +1,36 @@
+
+#login_container {
+    width: 20%;
+    margin-top: 10%;
+}
+
+#login_text {
+    text-align: center;
+    font-weight: bold;
+}
+
+#login_opt li {
+    list-style: none;
+    
+}
+
+#login_btn {
+}
+
+#login_opt a {
+    color:limegreen;
+    text-decoration: none;
+}
+
+#prompts_container {
+    margin-top: 20%;
+}
+
+#prompts2_container {
+    margin-top: 20%;
+}
+
+#listings_container {
+    margin-top: 5%;
+    width: 40%;
+}
